@@ -8,7 +8,7 @@ import "./less/index.less";
 // Kodlar buraya gelecek!
 
 document.querySelector(".logo-heading").addEventListener("mouseover", (e) => {
-  e.target.style.color = "red";
+  e.target.style.color = "green";
 });
 document.querySelector(".logo-heading").addEventListener("mouseleave", (e) => {
   e.target.style.color = "black";
@@ -52,5 +52,10 @@ document
 document
   .querySelectorAll(".container  nav a")[3]
   .addEventListener("dblclick", function (e) {
-    alert("Öncedecn Yerinizi Ayırtın");
+    alert("Önceden Yerinizi Ayırtın");
   });
+// document.querySelectorAll("btn")[0].addEventListener("click", focus);
+
+document.getElementsByClassName("main-navigation").style.resize = "both";
+
+// addEventListener("click").focus();

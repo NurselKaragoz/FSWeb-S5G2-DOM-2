@@ -56,6 +56,6 @@ document
   });
 // document.querySelectorAll("btn")[0].addEventListener("click", focus);
 
-document.getElementsByClassName("main-navigation").style.resize = "both";
+const resize = document.getElementsByClassName("main-navigation")
+resize.addEventListener()
 
-// addEventListener("click").focus();
